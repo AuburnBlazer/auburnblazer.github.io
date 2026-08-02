@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Team Comparison</title>
+    <link rel="stylesheet" href="/site.css">
 
     <style>
 
@@ -85,87 +86,11 @@
             font-weight:bold;
         }
 
-        /* ========================= */
-        /* TOOLBAR (same system CSS) */
-        /* ========================= */
-
-        .topbar{
-            display:flex;
-            justify-content:space-evenly;
-            align-items:flex-start;
-            flex-wrap:wrap;
-            gap:20px;
-
-            padding:15px 20px;
-            margin-bottom:25px;
-
-            background:#1a1a1a;
-            border-bottom:2px solid #333;
-        }
-
-        .toolbar-section{
-            flex:1;
-            min-width:300px;
-            text-align:center;
-        }
-
-        .toolbar-title{
-            font-size:15px;
-            font-weight:bold;
-            color:#e0e0e0;
-
-            border-bottom:1px solid #444;
-            padding-bottom:5px;
-            margin-bottom:10px;
-
-            text-transform:uppercase;
-            letter-spacing:1px;
-        }
-
-        .toolbar-links{
-            display:flex;
-            justify-content:center;
-            flex-wrap:wrap;
-            gap:10px;
-        }
-
-        .topbar a{
-            color:white;
-            text-decoration:none;
-            font-weight:600;
-
-            background:#1f1f1f;
-            border:1px solid #444;
-
-            padding:10px 18px;
-            border-radius:10px;
-
-            transition:0.2s ease;
-
-            display:inline-block;
-        }
-
-        .topbar a:visited{
-            color:white;
-        }
-
-        .topbar a:hover{
-            background:#2a2a2a;
-            border-color:#777;
-            transform:translateY(-2px);
-        }
-
-        .toolbar-divider{
-            width:1px;
-            background:#444;
-            align-self:stretch;
-        }
-
     </style>
 
 </head>
 
-<body><div class="topbar"><div class="toolbar-section toolbar-home"><div class="toolbar-title">Navigation</div><div class="toolbar-links"><a href="javascript:history.back()">Back</a><a href="/index.html">Home</a></div></div><div class="toolbar-divider"></div><div class="toolbar-section"><div class="toolbar-title">College Football</div><div class="toolbar-links"><a href="/CFB/2025/CFBrankings.html">Rankings</a><a href="/CFB/2025/compare.html">Compare Teams</a><a href="/CFB/2025/GamesThisWeek.html">Games This Week</a><a href="/CFB/2025/playoffs.html">CFP Projection</a><a href="/CFB/2025/CFBBiggestUpsets.html">Biggest Upsets</a><a href="/CFB/2025/Conferences.html">Conferences</a></div></div><div class="toolbar-divider"></div><div class="toolbar-section"><div class="toolbar-title">College Basketball</div><div class="toolbar-links"><a href="/MBB/2025/MBBrankings.html">Rankings</a><a href="/MBB/2025/compare.html">Compare Teams</a><a href="/MBB/2025/GamesThisWeek.html">Games This Week</a><a href="/MBB/2025/MarchMadnessProj.html">March Madness Projection</a><a href="/MBB/2025/MBBBiggestUpsets.html">Biggest Upsets</a><a href="/MBB/2025/Conferences.html">Conferences</a></div></div></div>    <!-- PAGE CONTENT -->
+<body><div class="topbar"><a href="javascript:history.back()">&larr; Back</a><a href="/index.html">Home</a><div class="dropdown"><button class="dropbtn">College Football &#9662</button><div class="dropdown-content"><a href="/CFB/2025/CFBrankings.html">Rankings</a><a href="/CFB/2025/compare.html">Compare Teams</a><a href="/CFB/2025/GamesThisWeek.html">Games This Week</a><a href="/CFB/2025/playoffs.html">CFP Projection</a><a href="/CFB/2025/CFBBiggestUpsets.html">Biggest Upsets</a><a href="/CFB/2025/Conferences.html">Conferences</a></div></div><div class="dropdown"><button class="dropbtn">College Basketball &#9662</button><div class="dropdown-content"><a href="/MBB/2025/MBBrankings.html">Rankings</a><a href="/MBB/2025/compare.html">Compare Teams</a><a href="/MBB/2025/GamesThisWeek.html">Games This Week</a><a href="/MBB/2025/MarchMadnessProj.html">March Madness Projection</a><a href="/MBB/2025/MBBBiggestUpsets.html">Biggest Upsets</a><a href="/MBB/2025/Conferences.html">Conferences</a></div></div></div>    <!-- PAGE CONTENT -->
     <h1>Team Comparison</h1>
 
     <div class="selectors">
