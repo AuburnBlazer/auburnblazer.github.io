@@ -4,6 +4,12 @@ h1{
     margin-bottom: 20px;
 }
 
+.table-container{
+    width:100%;
+    overflow-x:auto;
+    -webkit-overflow-scrolling:touch;
+}
+
 table {
     width:max-content;
     min-width:100%;
@@ -30,6 +36,30 @@ td {
     color: white;
 }
 
+/* Rank column */
+
+th:first-child,
+td:first-child{
+
+    position:sticky;
+    left:0;
+
+    background:#1f1f1f;
+    z-index:20;
+}
+
+/* Team column */
+
+th:nth-child(2),
+td:nth-child(2){
+
+    position:sticky;
+    left:70px;   /* Adjust based on Rank column width */
+
+    background:#1f1f1f;
+    z-index:20;
+}
+
 tr:hover td {
     background-color: #2a2a2a;
 }
@@ -52,4 +82,22 @@ tr:nth-child(even) td {
 
 .team-link:hover{
     color:#cccccc;
+}
+
+@media (max-width:768px){
+
+    .table-container{
+        overflow-x:auto;
+    }
+
+    table{
+        width:max-content;
+        min-width:100%;
+    }
+
+    th,
+    td{
+        white-space:nowrap;
+    }
+
 }
