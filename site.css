@@ -39,7 +39,7 @@ h1, h2, h3 {
     justify-content:space-evenly;
     align-items:flex-start;
     flex-wrap:wrap;
-    gap:20px;
+    gap:12px;
 
     padding:10px 10px;
     margin-bottom:25px;
@@ -71,7 +71,7 @@ h1, h2, h3 {
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
-    gap:10px;
+    gap:6px;
 }
 
 /* THIS IS THE PART YOU ARE MISSING */
