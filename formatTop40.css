@@ -1,0 +1,38 @@
+h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+table {
+    font-size: 30px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 2000px;
+    height: 1200px;
+    border-spacing: 10px;
+    border-collapse: collapse; 
+  }
+
+  th {
+    background: black;
+    position: sticky;
+    top: 0;
+  }
+
+  td {
+    text-align: left;
+    white-space:pre;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid white;
+    background-color: #000000;
+    color: white;
+    background-clip: padding-box;
+  }
+  tr {
+    border-bottom: 5px solid #ddd;
+}
+    img {
+        width: 100px;
+        height: 100px;
+    }
